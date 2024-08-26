@@ -1,5 +1,6 @@
 import java.util.Collections;
 import java.util.LinkedList;
+import java.util.Stack;
 
 public class Main2 {
     public static void main(String[] args){
@@ -15,5 +16,13 @@ public class Main2 {
 
         Collections.sort(list);
         System.out.println(list);
+
+
+        System.out.println("::::::::::::::: Stack ::::::::::::::::");
+        Stack<Integer> stack = new Stack<>();
+        stack.push(5);
+        stack.add(4);
+
+        System.out.println(stack);
     }
 }
